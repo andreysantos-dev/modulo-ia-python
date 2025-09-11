@@ -1,11 +1,12 @@
 # Este programa calcula o volume de uma caixa retangular
 
 # Solicita as dimensões da caixa ao usuário
-comprimento = 12
-largura = 14
-altura = 20
+comprimento = int(input("Digite o comprimento da caixa: "))
+largura = int(input("Digite o largura da caixa: "))
+altura = int(input("Digite o altura da caixa: "))
 
+# Calcula o volume da caixa
 volume = comprimento * largura * altura
 
 # Exibe o resultado
-print(volume)
+print(f"O volume da caixa é {volume} cm3")
