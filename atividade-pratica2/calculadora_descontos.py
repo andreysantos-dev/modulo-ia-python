@@ -10,8 +10,8 @@ valor_desconto = preco_original * (porcentagem_desconto / 100)
 preco_final = preco_original - valor_desconto
 
 # Exibição dos resultados
-print(f"Produto: {nome_produto}")
-print(f"Preço: R$ {preco_original}")
+print(f"\nProduto: {nome_produto}")
+print(f"Preço: R$ {preco_original:.2f}")
 print(f"Desconto: {porcentagem_desconto}%")
-print(f"Valor Desconto: R$ {valor_desconto}")
-print(f"Preço Final: R$ {preco_final}")
+print(f"Valor Desconto: R$ {valor_desconto:.2f}")
+print(f"Preço Final: R$ {preco_final:.2f}")
