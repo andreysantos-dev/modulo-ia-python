@@ -24,7 +24,7 @@ quantidade = obter_int("Digite a quantidade de Produtos: ")
 # Calcula o preço total
 preco_total = preco_unitario * quantidade
 
-# Exibe o resultado formatado
+# Exibe o resultado 
 print("\n--- RESUMO DA COMPRA ---")
 print(f"Produto: {nome_produto}")
 print(f"Preço unitário: R$ {preco_unitario:.2f}")
